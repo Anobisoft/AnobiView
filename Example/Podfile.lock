@@ -1,5 +1,5 @@
 PODS:
-  - AnobiView (0.0.1)
+  - AnobiView (0.0.2)
 
 DEPENDENCIES:
   - AnobiView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AnobiView: 77016bfe6b0ce4a49fea738a097e187077c304fa
+  AnobiView: 9883679df7af7db1eabbefce0c9b571b85edcfb1
 
 PODFILE CHECKSUM: 8a7d3c9982406f8fecc8107ae51ef2f71bb9e928
 

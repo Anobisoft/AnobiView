@@ -21,35 +21,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W4I-7h-Xpj" customClass="AKGradientView">
-                                <rect key="frame" x="16" y="72" width="343" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W4I-7h-Xpj" customClass="ASGradientView">
+                                <rect key="frame" x="16" y="72" width="343" height="64"/>
                                 <color key="backgroundColor" red="0.58853474130000005" green="0.55785883359999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.88816352739726023" green="0.2196078431372549" blue="0.16724636130136986" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="8Wl-u6-k43"/>
+                                    <constraint firstAttribute="height" constant="64" id="8Wl-u6-k43"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="point" keyPath="startPoint">
                                         <point key="value" x="1" y="0.29999999999999999"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="point" keyPath="endPoint">
-                                        <point key="value" x="0.0" y="2"/>
+                                        <point key="value" x="0.0" y="3"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GTK-Ls-KaL" customClass="AKGrainbomatedView">
-                                <rect key="frame" x="16" y="208" width="343" height="128"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bgc-C8-dFD" customClass="AKGridView">
-                                <rect key="frame" x="16" y="344" width="343" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bgc-C8-dFD" customClass="ASGridView">
+                                <rect key="frame" x="16" y="216" width="343" height="64"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="size" keyPath="cellSize">
-                                        <size key="value" width="20" height="20"/>
+                                        <size key="value" width="15" height="15"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
                                         <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GTK-Ls-KaL" customClass="ASGrainbomatedView">
+                                <rect key="frame" x="16" y="144" width="343" height="64"/>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qRL-5E-ugD" customClass="UIDesignableView">
+                                <rect key="frame" x="16" y="288" width="343" height="64"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.88816352740000004" green="0.21960784310000001" blue="0.16724636130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
@@ -60,12 +75,16 @@
                             <constraint firstItem="W4I-7h-Xpj" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="8" id="9pQ-NY-exV"/>
                             <constraint firstItem="GTK-Ls-KaL" firstAttribute="height" secondItem="W4I-7h-Xpj" secondAttribute="height" id="ArM-hT-GRl"/>
                             <constraint firstItem="Bgc-C8-dFD" firstAttribute="leading" secondItem="GTK-Ls-KaL" secondAttribute="leading" id="GoZ-RU-jYf"/>
+                            <constraint firstItem="qRL-5E-ugD" firstAttribute="top" secondItem="Bgc-C8-dFD" secondAttribute="bottom" constant="8" id="MLM-ip-GaE"/>
                             <constraint firstItem="W4I-7h-Xpj" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="Sfd-z9-ctH"/>
                             <constraint firstItem="W4I-7h-Xpj" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="WhR-kj-PgH"/>
                             <constraint firstItem="Bgc-C8-dFD" firstAttribute="trailing" secondItem="GTK-Ls-KaL" secondAttribute="trailing" id="Wsk-A5-tX2"/>
+                            <constraint firstItem="qRL-5E-ugD" firstAttribute="height" secondItem="Bgc-C8-dFD" secondAttribute="height" id="YP7-L4-A3e"/>
                             <constraint firstItem="Bgc-C8-dFD" firstAttribute="top" secondItem="GTK-Ls-KaL" secondAttribute="bottom" constant="8" id="aWx-nq-nkI"/>
                             <constraint firstItem="Bgc-C8-dFD" firstAttribute="height" secondItem="GTK-Ls-KaL" secondAttribute="height" id="aXk-P7-2S3"/>
+                            <constraint firstItem="qRL-5E-ugD" firstAttribute="leading" secondItem="Bgc-C8-dFD" secondAttribute="leading" id="dkX-Bc-bg1"/>
                             <constraint firstItem="GTK-Ls-KaL" firstAttribute="trailing" secondItem="W4I-7h-Xpj" secondAttribute="trailing" id="mcL-wP-53e"/>
+                            <constraint firstItem="qRL-5E-ugD" firstAttribute="trailing" secondItem="Bgc-C8-dFD" secondAttribute="trailing" id="vnx-2i-I17"/>
                             <constraint firstItem="GTK-Ls-KaL" firstAttribute="leading" secondItem="W4I-7h-Xpj" secondAttribute="leading" id="zhG-cr-PME"/>
                         </constraints>
                     </view>

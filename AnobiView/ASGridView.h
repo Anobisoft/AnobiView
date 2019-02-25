@@ -10,7 +10,7 @@
 
 IB_DESIGNABLE
 
-@interface AKGridView : UIView
+@interface ASGridView : UIView
 
 @property (nonatomic) IBInspectable CGSize cellSize;
 @property (nonatomic) IBInspectable CGFloat lineWidth;

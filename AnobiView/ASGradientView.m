@@ -1,14 +1,14 @@
 //
-//  AKGradientView.m
+//  ASGradientView.m
 //  AnobiView
 //
 //  Created by Stanislav Pletnev on 07.04.17.
 //  Copyright © 2017 Anobisoft. All rights reserved.
 //
 
-#import "AKGradientView.h"
+#import "ASGradientView.h"
 
-@implementation AKGradientView {
+@implementation ASGradientView {
     CAGradientLayer *gradientLayer;
     UIColor *bgColor;
 }

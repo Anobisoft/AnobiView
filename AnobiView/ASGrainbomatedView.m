@@ -1,21 +1,21 @@
 //
-//  AKGrainbomatedView.m
+//  ASGrainbomatedView.m
 //  AnobiView
 //
 //  Created by Stanislav Pletnev on 30.08.17.
 //  Copyright © 2017 Anobisoft. All rights reserved.
 //
 
-#import "AKGrainbomatedView.h"
+#import "ASGrainbomatedView.h"
 
-@interface AKGrainbomatedView ()
+@interface ASGrainbomatedView ()
 
 @property CAGradientLayer *gradientLayer;
 
 @end
 
 
-@implementation AKGrainbomatedView {
+@implementation ASGrainbomatedView {
 	NSUInteger colorsCount;
 }
 

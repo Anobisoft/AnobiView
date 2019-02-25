@@ -1,5 +1,5 @@
 //
-//  AKGrainbomatedView.h
+//  ASGrainbomatedView.h
 //  AnobiView
 //
 //  Created by Stanislav Pletnev on 30.08.17.
@@ -10,6 +10,6 @@
 
 IB_DESIGNABLE
 
-@interface AKGrainbomatedView : UIView
+@interface ASGrainbomatedView : UIView
 
 @end

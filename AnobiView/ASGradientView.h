@@ -1,5 +1,5 @@
 //
-//  AKGradientView.h
+//  ASGradientView.h
 //  AnobiView
 //
 //  Created by Stanislav Pletnev on 07.04.17.
@@ -10,7 +10,7 @@
 
 IB_DESIGNABLE
 
-@interface AKGradientView : UIView
+@interface ASGradientView : UIView
 
 @property (nonatomic) IBInspectable CGPoint startPoint;
 @property (nonatomic) IBInspectable CGPoint endPoint;

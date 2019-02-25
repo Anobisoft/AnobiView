@@ -14,8 +14,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [AKGradientView appearance].startPoint = CGPointMake(0, 0.2);
-    [AKGradientView appearance].endPoint = CGPointMake(1, 2);
+    [ASGradientView appearance].startPoint = CGPointMake(0, 0.2);
+    [ASGradientView appearance].endPoint = CGPointMake(1, 2);
     
     UIButton *button = [UIButton appearance];
     button.tintColor = [UIColor greenColor];

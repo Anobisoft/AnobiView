@@ -1,21 +1,15 @@
 //
-//  AKGridView.m
-//  AKGridView
+//  ASGridView.m
+//  ASGridView
 //
 //  Created by Stanislav Pletnev on 07.04.17.
 //  Copyright © 2017 Anobisoft. All rights reserved.
 //
 
-#import "AKGridView.h"
+#import "ASGridView.h"
 
-@implementation AKGridView {
+@implementation ASGridView {
     CGFloat screenScale;
-}
-
-+ (void)initialize {
-    [super initialize];
-    
-//    [AKGridView appearance].backgroundColor = [UIColor clearColor];
 }
 
 - (void)awakeFromNib {
