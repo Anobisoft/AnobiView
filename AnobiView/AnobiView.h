@@ -12,7 +12,7 @@
 #import <AnobiView/ASGridView.h>
 
 #import <AnobiView/UIView+Designable.h>
-#import <AnobiView/CALayer+XibConfiguration.h>
-#import <AnobiView/UINavigationBar+AnobiKit.h>
 #import <AnobiView/UIView+Autolayout.h>
+#import <AnobiView/UINavigationBar+AnobiKit.h>
+
 

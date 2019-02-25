@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'AnobiView'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'AnobiView - UIView childs collection'
 
   s.description      = <<-DESC
@@ -12,6 +12,15 @@ AnobiView - UIView childs collection.
 ASGridView
 ASGradientView
 ASGrainbomatedView
+
+## Foundation
+UIView+Designable
+UIView+Autolayout
+
+## Utilities / Helpers
+UINavigationBar+AnobiKit
+
+
 DESC
 
   s.homepage     = "https://github.com/Anobisoft/AnobiView"
