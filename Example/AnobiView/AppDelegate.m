@@ -17,29 +17,38 @@
     [ASGradientView appearance].startPoint = CGPointMake(0, 0.2);
     [ASGradientView appearance].endPoint = CGPointMake(1, 2);
     
-    [UIButton appearance].tintColor = [UIColor greenColor];
-    [UINavigationBar appearance].titleTextColor = [UIColor redColor];
+    [UIButton appearance].tintColor = [UIColor whiteColor];
+    [UINavigationBar appearance].titleTextColor = [UIColor whiteColor];
+    [UINavigationBar appearance].barTintColor = [UIColor redColor];
+    [UIToolbar appearance].barTintColor = [UIColor redColor];
     
-    UINavigationController *naviViewController = (UINavigationController *)self.window.rootViewController;
-    UIView *rootView = naviViewController.viewControllers.firstObject.view;
-    UIButton *button = [UIButton autolayoutView];
-    button.cornerRadius = 4;
-    button.backgroundColor = [UIColor cyanColor];
-    [rootView addSubview:button];
-    [button.centerXAnchor constraintEqualToAnchor:rootView.centerXAnchor].active = YES;
-//    [button.centerYAnchor constraintEqualToAnchor:rootView.centerYAnchor].active = YES;
-    if (@available(iOS 11.0, *)) {
-        [button.bottomAnchor constraintEqualToAnchor:rootView.safeAreaLayoutGuide.bottomAnchor constant:-16].active = YES;
-    } else {
-        [button.bottomAnchor constraintEqualToAnchor:rootView.layoutMarginsGuide.bottomAnchor constant:-16].active = YES;
-    }
-    [button.widthAnchor constraintEqualToConstant:200].active = YES;
-
-    [button setTitle:@"Action" forState:UIControlStateNormal];
-    
-    [button addTarget:self action:@selector(buttonAction) forControlEvents:UIControlEventTouchUpInside];
+    [self addButton];
     
     return YES;
+}
+
+- (void)addButton {
+    UINavigationController *naviViewController = (UINavigationController *)self.window.rootViewController;
+    UIView *rootView = naviViewController.viewControllers.firstObject.view;
+    UIView *grainbomatedView = nil;
+    for (UIView *view in rootView.subviews) {
+        if ([view isKindOfClass:ASGrainbomatedView.class]) {
+            grainbomatedView = view;
+            break;
+        }
+    }
+    UIButton *button = [UIButton autolayoutView];
+    [grainbomatedView addSubview:button];
+    
+    [button setTitle:@"Action" forState:UIControlStateNormal];
+    [button setTitleColor:UIColor.blackColor forState:UIControlStateNormal];
+    
+    [button.centerXAnchor constraintEqualToAnchor:grainbomatedView.centerXAnchor].active = YES;
+    [button.centerYAnchor constraintEqualToAnchor:grainbomatedView.centerYAnchor].active = YES;
+    [button.leftAnchor constraintEqualToAnchor:grainbomatedView.leftAnchor].active = YES;
+    [button.topAnchor constraintEqualToAnchor:grainbomatedView.topAnchor].active = YES;    
+    
+    [button addTarget:self action:@selector(buttonAction) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)buttonAction {

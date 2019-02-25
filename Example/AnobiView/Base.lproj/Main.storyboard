@@ -92,8 +92,20 @@
                             <constraint firstItem="GTK-Ls-KaL" firstAttribute="leading" secondItem="W4I-7h-Xpj" secondAttribute="leading" id="zhG-cr-PME"/>
                         </constraints>
                     </view>
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" title="AnobiView" id="dxq-KZ-ggs"/>
+                    <toolbarItems>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="KBJ-Vw-FyW"/>
+                        <barButtonItem systemItem="rewind" id="l8U-Os-cPi"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="akI-cQ-iON"/>
+                        <barButtonItem systemItem="pause" id="pyR-ik-2nm"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="JWS-Nz-smI"/>
+                        <barButtonItem systemItem="play" id="qOF-RH-N7E"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="3fc-Lq-ZDC"/>
+                        <barButtonItem systemItem="fastForward" id="YBS-bT-oFW"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="4Nd-wW-gcm"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" title="AnobiView" id="dxq-KZ-ggs">
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="6zK-LN-WnR"/>
+                    </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
