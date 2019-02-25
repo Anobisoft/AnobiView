@@ -10,7 +10,6 @@ before_install:
 - rvm install ruby-2.5.3
 - rvm use ruby-2.5.3 --default
 - gem install cocoapods -v '1.6.1'
-- pod repo update master
 - pod install --project-directory=Example
 script:
 - pod lib lint

@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AnobiView/UIDesignableView.h>
 
 IB_DESIGNABLE
 
-@interface ASGridView : UIView
+@interface ASGridView : UIDesignableView
 
 @property (nonatomic) IBInspectable CGSize cellSize;
 @property (nonatomic) IBInspectable CGFloat lineWidth;

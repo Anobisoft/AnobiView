@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'AnobiView'
-  s.version          = '0.0.2'
+  s.version          = '0.1.0'
   s.summary          = 'AnobiView - UIView childs collection'
 
   s.description      = <<-DESC
