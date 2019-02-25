@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AnobiView/UIDesignableView.h>
+#import <AnobiView/UIView+Designable.h>
 
 IB_DESIGNABLE
 
-@interface ASGradientView : UIDesignableView
+@interface ASGradientView : UIView
 
 @property (nonatomic) IBInspectable CGPoint startPoint;
 @property (nonatomic) IBInspectable CGPoint endPoint;

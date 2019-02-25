@@ -15,7 +15,8 @@
 
 - (void)layoutSubviews {
     [super layoutSubviews];
-    gradientLayer.frame = self.bounds;
+    gradientLayer.frame = self.layer.bounds;
+    
 }
 
 - (void)prepareForInterfaceBuilder {
@@ -51,7 +52,9 @@
 
 - (void)addGradientLayerd {
     gradientLayer = [CAGradientLayer layer];
-    [self.layer insertSublayer:gradientLayer atIndex:0];
+    gradientLayer.masksToBounds = YES;
+
+    [self.layer addSublayer:gradientLayer];
 }
 
 - (void)setTintColor:(UIColor *)tintColor {

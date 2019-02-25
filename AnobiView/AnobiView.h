@@ -10,8 +10,8 @@
 #import <AnobiView/ASGradientView.h>
 #import <AnobiView/ASGrainbomatedView.h>
 #import <AnobiView/ASGridView.h>
-#import <AnobiView/UIDesignableView.h>
 
+#import <AnobiView/UIView+Designable.h>
 #import <AnobiView/CALayer+XibConfiguration.h>
 #import <AnobiView/UINavigationBar+AnobiKit.h>
 #import <AnobiView/UIView+Autolayout.h>

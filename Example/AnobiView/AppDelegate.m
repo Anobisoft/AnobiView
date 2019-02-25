@@ -17,12 +17,33 @@
     [ASGradientView appearance].startPoint = CGPointMake(0, 0.2);
     [ASGradientView appearance].endPoint = CGPointMake(1, 2);
     
-    UIButton *button = [UIButton appearance];
-    button.tintColor = [UIColor greenColor];
-    
+    [UIButton appearance].tintColor = [UIColor greenColor];
     [UINavigationBar appearance].titleTextColor = [UIColor redColor];
     
+    UINavigationController *naviViewController = (UINavigationController *)self.window.rootViewController;
+    UIView *rootView = naviViewController.viewControllers.firstObject.view;
+    UIButton *button = [UIButton autolayoutView];
+    button.cornerRadius = 4;
+    button.backgroundColor = [UIColor cyanColor];
+    [rootView addSubview:button];
+    [button.centerXAnchor constraintEqualToAnchor:rootView.centerXAnchor].active = YES;
+//    [button.centerYAnchor constraintEqualToAnchor:rootView.centerYAnchor].active = YES;
+    if (@available(iOS 11.0, *)) {
+        [button.bottomAnchor constraintEqualToAnchor:rootView.safeAreaLayoutGuide.bottomAnchor constant:-16].active = YES;
+    } else {
+        [button.bottomAnchor constraintEqualToAnchor:rootView.layoutMarginsGuide.bottomAnchor constant:-16].active = YES;
+    }
+    [button.widthAnchor constraintEqualToConstant:200].active = YES;
+
+    [button setTitle:@"Action" forState:UIControlStateNormal];
+    
+    [button addTarget:self action:@selector(buttonAction) forControlEvents:UIControlEventTouchUpInside];
+    
     return YES;
+}
+
+- (void)buttonAction {
+    NSLog(@"buttonAction!");
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

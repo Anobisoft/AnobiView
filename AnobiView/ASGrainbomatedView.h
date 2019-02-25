@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AnobiView/UIDesignableView.h>
+#import <AnobiView/UIView+Designable.h>
 
 IB_DESIGNABLE
 
-@interface ASGrainbomatedView : UIDesignableView
+@interface ASGrainbomatedView : UIView
 
 @end

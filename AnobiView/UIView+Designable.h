@@ -1,5 +1,5 @@
 //
-//  UIDesignableView.h
+//  UIView+Designable.h
 //  AnobiView
 //
 //  Created by Stanislav Pletnev on 25/02/2019.
@@ -12,7 +12,7 @@ IB_DESIGNABLE
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIDesignableView : UIView
+@interface UIView (Designable)
 
 @property (nonatomic, assign) IBInspectable UIColor *borderColor;
 @property (nonatomic, assign) IBInspectable CGFloat borderWidth;
