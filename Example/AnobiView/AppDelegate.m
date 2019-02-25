@@ -20,6 +20,8 @@
     UIButton *button = [UIButton appearance];
     button.tintColor = [UIColor greenColor];
     
+    [UINavigationBar appearance].titleTextColor = [UIColor redColor];
+    
     return YES;
 }
 
