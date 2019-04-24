@@ -1,0 +1,16 @@
+PODS:
+  - AnobiView (0.3.1)
+
+DEPENDENCIES:
+  - AnobiView (from `./`)
+
+EXTERNAL SOURCES:
+  AnobiView:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  AnobiView: 4a09db8d89130a7ff232cef1645bac1fe44c1dec
+
+PODFILE CHECKSUM: ac5c829ecfb2459bf94f83224d01218ba64ed87d
+
+COCOAPODS: 1.6.1

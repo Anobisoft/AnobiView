@@ -7,23 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
-		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
-		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* AppDelegate.m */; };
-		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6A7DFF9B2223F629004AFC02 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 6A7DFF9A2223F628004AFC02 /* .travis.yml */; };
-		6AA3B68C1F38AEFB001D70DD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA3B68B1F38AEFB001D70DD /* XCTest.framework */; };
-		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		72B7821029A525B69D5D0AD0 /* Pods_AnobiView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328DED9D7D60818A47292CA0 /* Pods_AnobiView_Example.framework */; };
-		843C138B52072CFB9A9B9CC5 /* Pods_AnobiView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA3B2C25994497C13871B3C /* Pods_AnobiView_Tests.framework */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		6A528C0F227090720065A715 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A528BFC227090720065A715 /* InfoPlist.strings */; };
+		6A528C13227090720065A715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A528C07227090720065A715 /* LaunchScreen.storyboard */; };
+		6A528C14227090720065A715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A528C09227090720065A715 /* Main.storyboard */; };
+		6A528C15227090720065A715 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A528C0B227090720065A715 /* main.m */; };
+		6A528C16227090720065A715 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A528C0C227090720065A715 /* Images.xcassets */; };
+		6A528C17227090720065A715 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A528C0D227090720065A715 /* AppDelegate.m */; };
+		6A528C20227090B50065A715 /* Tests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A528C1C227090B50065A715 /* Tests-Info.plist */; };
+		6A528C25227090BE0065A715 /* AnobiView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6A528C22227090BE0065A715 /* AnobiView.podspec */; };
+		6A528C26227090BE0065A715 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6A528C23227090BE0065A715 /* LICENSE */; };
+		6A528C27227090BE0065A715 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6A528C24227090BE0065A715 /* README.md */; };
+		6AD7261D2270A2B900C0F365 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A528C1A227090B50065A715 /* InfoPlist.strings */; };
+		6AD726202270A3A100C0F365 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A528C1D227090B50065A715 /* Tests.m */; };
+		6AD726222270A3E100C0F365 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD726212270A3E100C0F365 /* XCTest.framework */; };
+		920E29C57262972F4D82FF8B /* Pods_AnobiView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F123AB5DCA6EAB8D0CD1D929 /* Pods_AnobiView_Example.framework */; };
+		A1719BA9295B760646EE3BFD /* Pods_AnobiView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB3F57ABD490ADFC21A46B4 /* Pods_AnobiView_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,35 +35,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BA3B2C25994497C13871B3C /* Pods_AnobiView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnobiView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C07732A05147DA8198E89D4 /* Pods-AnobiView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnobiView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnobiView_Example/Pods-AnobiView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		328DED9D7D60818A47292CA0 /* Pods_AnobiView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnobiView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB3F57ABD490ADFC21A46B4 /* Pods_AnobiView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnobiView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7D92561E2998B141484D9D /* Pods-AnobiView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnobiView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AnobiView_Tests/Pods-AnobiView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AnobiView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnobiView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* AnobiView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnobiView-Info.plist"; sourceTree = "<group>"; };
-		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* AnobiView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnobiView-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* AnobiView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnobiView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
-		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		63142E5C9523AC112F4684DA /* Pods-AnobiView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnobiView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnobiView_Tests/Pods-AnobiView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6A7DFF9A2223F628004AFC02 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
-		6AA3B68B1F38AEFB001D70DD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AAB32140E5F2541820504F40 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D444B4AE0DC96771BFA86FF9 /* Pods-AnobiView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnobiView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnobiView_Example/Pods-AnobiView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D6DCF70DDD885358887892C0 /* Pods-AnobiView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnobiView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnobiView_Tests/Pods-AnobiView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E39F22E1CC7E38091066249F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FF6FB57BE3D9EE40D7FD2E6F /* AnobiView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AnobiView.podspec; path = ../AnobiView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6A528BFD227090720065A715 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A528BFE227090720065A715 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A528C00227090720065A715 /* AnobiView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AnobiView-Prefix.pch"; sourceTree = "<group>"; };
+		6A528C08227090720065A715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A528C0A227090720065A715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A528C0B227090720065A715 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A528C0C227090720065A715 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6A528C0D227090720065A715 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A528C0E227090720065A715 /* AnobiView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AnobiView-Info.plist"; sourceTree = "<group>"; };
+		6A528C1B227090B50065A715 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A528C1C227090B50065A715 /* Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6A528C1D227090B50065A715 /* Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		6A528C1E227090B50065A715 /* Tests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6A528C22227090BE0065A715 /* AnobiView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AnobiView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6A528C23227090BE0065A715 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6A528C24227090BE0065A715 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6AD726212270A3E100C0F365 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C27D781DB54BCCBDD18D8F5B /* Pods-AnobiView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnobiView_Example.debug.xcconfig"; path = "Target Support Files/Pods-AnobiView_Example/Pods-AnobiView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D126D46672116C16A20E9DE1 /* Pods-AnobiView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnobiView_Example.release.xcconfig"; path = "Target Support Files/Pods-AnobiView_Example/Pods-AnobiView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DDC2B290CFCD1CD78DF02767 /* Pods-AnobiView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnobiView_Tests.release.xcconfig"; path = "Target Support Files/Pods-AnobiView_Tests/Pods-AnobiView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F123AB5DCA6EAB8D0CD1D929 /* Pods_AnobiView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnobiView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
-				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				72B7821029A525B69D5D0AD0 /* Pods_AnobiView_Example.framework in Frameworks */,
+				920E29C57262972F4D82FF8B /* Pods_AnobiView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,25 +75,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AA3B68C1F38AEFB001D70DD /* XCTest.framework in Frameworks */,
-				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				843C138B52072CFB9A9B9CC5 /* Pods_AnobiView_Tests.framework in Frameworks */,
+				6AD726222270A3E100C0F365 /* XCTest.framework in Frameworks */,
+				A1719BA9295B760646EE3BFD /* Pods_AnobiView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		411039ECC94CD9241E750D5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C27D781DB54BCCBDD18D8F5B /* Pods-AnobiView_Example.debug.xcconfig */,
+				D126D46672116C16A20E9DE1 /* Pods-AnobiView_Example.release.xcconfig */,
+				3D7D92561E2998B141484D9D /* Pods-AnobiView_Tests.debug.xcconfig */,
+				DDC2B290CFCD1CD78DF02767 /* Pods-AnobiView_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for AnobiView */,
-				6003F5B5195388D20070C39A /* Tests */,
-				6003F58C195388D20070C39A /* Frameworks */,
+				6A528C22227090BE0065A715 /* AnobiView.podspec */,
+				6A528C24227090BE0065A715 /* README.md */,
+				6A528C23227090BE0065A715 /* LICENSE */,
+				6A528C19227090B50065A715 /* Tests */,
+				6A528BFB227090720065A715 /* AnobiViewExample */,
 				6003F58B195388D20070C39A /* Products */,
-				8DBCACB3F18D98302CDD33E5 /* Pods */,
+				411039ECC94CD9241E750D5E /* Pods */,
+				9DCC114EE46D21DCB5735AC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,83 +117,41 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6003F58C195388D20070C39A /* Frameworks */ = {
+		6A528BFB227090720065A715 /* AnobiViewExample */ = {
 			isa = PBXGroup;
 			children = (
-				6AA3B68B1F38AEFB001D70DD /* XCTest.framework */,
-				6003F58D195388D20070C39A /* Foundation.framework */,
-				6003F58F195388D20070C39A /* CoreGraphics.framework */,
-				6003F591195388D20070C39A /* UIKit.framework */,
-				328DED9D7D60818A47292CA0 /* Pods_AnobiView_Example.framework */,
-				0BA3B2C25994497C13871B3C /* Pods_AnobiView_Tests.framework */,
+				6A528BFC227090720065A715 /* InfoPlist.strings */,
+				6A528C00227090720065A715 /* AnobiView-Prefix.pch */,
+				6A528BFE227090720065A715 /* AppDelegate.h */,
+				6A528C0D227090720065A715 /* AppDelegate.m */,
+				6A528C07227090720065A715 /* LaunchScreen.storyboard */,
+				6A528C09227090720065A715 /* Main.storyboard */,
+				6A528C0C227090720065A715 /* Images.xcassets */,
+				6A528C0E227090720065A715 /* AnobiView-Info.plist */,
+				6A528C0B227090720065A715 /* main.m */,
 			);
-			name = Frameworks;
+			path = AnobiViewExample;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for AnobiView */ = {
+		6A528C19227090B50065A715 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* AppDelegate.h */,
-				6003F59D195388D20070C39A /* AppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
-				6003F594195388D20070C39A /* Supporting Files */,
-			);
-			name = "Example for AnobiView";
-			path = AnobiView;
-			sourceTree = "<group>";
-		};
-		6003F594195388D20070C39A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6003F595195388D20070C39A /* AnobiView-Info.plist */,
-				6003F596195388D20070C39A /* InfoPlist.strings */,
-				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* AnobiView-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		6003F5B5195388D20070C39A /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
-				6003F5B6195388D20070C39A /* Supporting Files */,
+				6A528C1A227090B50065A715 /* InfoPlist.strings */,
+				6A528C1C227090B50065A715 /* Tests-Info.plist */,
+				6A528C1D227090B50065A715 /* Tests.m */,
+				6A528C1E227090B50065A715 /* Tests-Prefix.pch */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		6003F5B6195388D20070C39A /* Supporting Files */ = {
+		9DCC114EE46D21DCB5735AC3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5B7195388D20070C39A /* Tests-Info.plist */,
-				6003F5B8195388D20070C39A /* InfoPlist.strings */,
-				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+				6AD726212270A3E100C0F365 /* XCTest.framework */,
+				F123AB5DCA6EAB8D0CD1D929 /* Pods_AnobiView_Example.framework */,
+				2DB3F57ABD490ADFC21A46B4 /* Pods_AnobiView_Tests.framework */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				6A7DFF9A2223F628004AFC02 /* .travis.yml */,
-				FF6FB57BE3D9EE40D7FD2E6F /* AnobiView.podspec */,
-				E39F22E1CC7E38091066249F /* README.md */,
-				AAB32140E5F2541820504F40 /* LICENSE */,
-			);
-			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		8DBCACB3F18D98302CDD33E5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1C07732A05147DA8198E89D4 /* Pods-AnobiView_Example.debug.xcconfig */,
-				D444B4AE0DC96771BFA86FF9 /* Pods-AnobiView_Example.release.xcconfig */,
-				D6DCF70DDD885358887892C0 /* Pods-AnobiView_Tests.debug.xcconfig */,
-				63142E5C9523AC112F4684DA /* Pods-AnobiView_Tests.release.xcconfig */,
-			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,7 +202,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = AK;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = anobisoft;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
@@ -256,7 +216,7 @@
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "AnobiView" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -278,11 +238,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A7DFF9B2223F629004AFC02 /* .travis.yml in Resources */,
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				6A528C0F227090720065A715 /* InfoPlist.strings in Resources */,
+				6A528C25227090BE0065A715 /* AnobiView.podspec in Resources */,
+				6A528C27227090BE0065A715 /* README.md in Resources */,
+				6A528C20227090B50065A715 /* Tests-Info.plist in Resources */,
+				6A528C14227090720065A715 /* Main.storyboard in Resources */,
+				6A528C13227090720065A715 /* LaunchScreen.storyboard in Resources */,
+				6A528C26227090BE0065A715 /* LICENSE in Resources */,
+				6A528C16227090720065A715 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				6AD7261D2270A2B900C0F365 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,8 +325,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* AppDelegate.m in Sources */,
-				6003F59A195388D20070C39A /* main.m in Sources */,
+				6A528C15227090720065A715 /* main.m in Sources */,
+				6A528C17227090720065A715 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				6AD726202270A3A100C0F365 /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,28 +349,36 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+		6A528BFC227090720065A715 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6003F597195388D20070C39A /* en */,
+				6A528BFD227090720065A715 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+		6A528C07227090720065A715 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6003F5B9195388D20070C39A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71719F9E1E33DC2100824A3D /* Base */,
+				6A528C08227090720065A715 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6A528C09227090720065A715 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A528C0A227090720065A715 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A528C1A227090B50065A715 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A528C1B227090B50065A715 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -515,13 +486,13 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C07732A05147DA8198E89D4 /* Pods-AnobiView_Example.debug.xcconfig */;
+			baseConfigurationReference = C27D781DB54BCCBDD18D8F5B /* Pods-AnobiView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AnobiView/AnobiView-Prefix.pch";
-				INFOPLIST_FILE = "AnobiView/AnobiView-Info.plist";
+				GCC_PREFIX_HEADER = "AnobiViewExample/AnobiView-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/AnobiViewExample/AnobiView-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,13 +503,13 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D444B4AE0DC96771BFA86FF9 /* Pods-AnobiView_Example.release.xcconfig */;
+			baseConfigurationReference = D126D46672116C16A20E9DE1 /* Pods-AnobiView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AnobiView/AnobiView-Prefix.pch";
-				INFOPLIST_FILE = "AnobiView/AnobiView-Info.plist";
+				GCC_PREFIX_HEADER = "AnobiViewExample/AnobiView-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/AnobiViewExample/AnobiView-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -549,7 +520,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6DCF70DDD885358887892C0 /* Pods-AnobiView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 3D7D92561E2998B141484D9D /* Pods-AnobiView_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = "";
@@ -564,7 +535,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -575,7 +546,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63142E5C9523AC112F4684DA /* Pods-AnobiView_Tests.release.xcconfig */;
+			baseConfigurationReference = DDC2B290CFCD1CD78DF02767 /* Pods-AnobiView_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = "";
@@ -586,7 +557,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

@@ -16,7 +16,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) IBInspectable UIColor *borderColor;
 @property (nonatomic, assign) IBInspectable CGFloat borderWidth;
-
 @property (nonatomic, assign) IBInspectable CGFloat cornerRadius;
 
 @end

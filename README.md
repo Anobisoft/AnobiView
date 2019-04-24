@@ -8,20 +8,14 @@
 [![License](https://img.shields.io/cocoapods/l/AnobiView.svg?style=flat)](http://cocoapods.org/pods/AnobiView)
 [![Twitter](https://img.shields.io/badge/twitter-@Anobisoft-blue.svg?style=flat)](http://twitter.com/Anobisoft)
 
-Collection of various UIKit-dependent classes and categories useful to Objective-C iOS Developer.
+UIView childs collection.
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install --project-directory=Example` first.
+To run the example project, clone the repo, and run `pod install` first.
 
-## Installation with CocoaPods
-[CocoaPods](http://cocoapods.org/) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like **AnobiView** in your projects. You can install it with the following command:
-```
-$ gem install cocoapods
-```
-#### Podfile
-To integrate **AnobiView** into your Xcode project using CocoaPods, specify it in your `Podfile`:
-
+## Installation
+To integrate **AnobiView** into your Xcode project using [CocoaPods](http://cocoapods.org/), specify it in your `Podfile`:
 ```
 platform :ios, '9.3'
 use_frameworks!
@@ -34,6 +28,7 @@ Then, run the following command:
 ```
 $ pod install
 ```
+
 ## Requirements
 Minimum iOS Target is ios **9.3**.
 

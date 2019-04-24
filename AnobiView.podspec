@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'AnobiView'
-  s.version          = '0.3.0'
+  s.version          = '0.3.1'
   s.summary          = 'AnobiView - UIView childs collection'
 
   s.description      = <<-DESC
@@ -12,6 +12,7 @@ AnobiView - UIView childs collection.
 ASGridView
 ASGradientView
 ASGrainbomatedView
+ASBannerTableViewCell
 
 ## Foundation
 UIView+Designable

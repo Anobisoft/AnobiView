@@ -10,15 +10,7 @@
 
 @implementation UIView (Designable)
 
-- (void)setCornerRadius:(CGFloat)cornerRadius {
-    self.layer.cornerRadius = cornerRadius;
-    self.layer.masksToBounds = YES;
-    self.clipsToBounds = YES;
-}
-
-- (CGFloat)cornerRadius {
-    return self.layer.cornerRadius;
-}
+#pragma mark - borderColor
 
 - (void)setBorderColor:(UIColor *)borderColor {
     self.layer.borderColor = borderColor.CGColor;
@@ -27,6 +19,9 @@
 - (UIColor *)borderColor {
     return [UIColor colorWithCGColor:self.layer.borderColor];
 }
+
+
+#pragma mark - borderWidth
 
 - (void)setBorderWidth:(CGFloat)borderWidth {
 #if !TARGET_INTERFACE_BUILDER
@@ -39,6 +34,19 @@
 
 - (CGFloat)borderWidth {
     return self.layer.borderWidth;
+}
+
+
+#pragma mark - cornerRadius
+
+- (void)setCornerRadius:(CGFloat)cornerRadius {
+    self.layer.cornerRadius = cornerRadius;
+    self.layer.masksToBounds = YES;
+    self.clipsToBounds = YES;
+}
+
+- (CGFloat)cornerRadius {
+    return self.layer.cornerRadius;
 }
 
 
