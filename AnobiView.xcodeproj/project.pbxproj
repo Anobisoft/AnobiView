@@ -305,12 +305,16 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AnobiView_Example/Pods-AnobiView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AnobiKit/AnobiKit.framework",
+				"${BUILT_PRODUCTS_DIR}/AnobiUIKit/AnobiUIKit.framework",
 				"${BUILT_PRODUCTS_DIR}/AnobiView/AnobiView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AnobiKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AnobiUIKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AnobiView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

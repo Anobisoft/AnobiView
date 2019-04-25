@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'AnobiView'
-  s.version          = '0.3.1'
+  s.version          = '0.3.2'
   s.summary          = 'AnobiView - UIView childs collection'
 
   s.description      = <<-DESC
@@ -20,7 +20,6 @@ UIView+Autolayout
 
 ## Utilities / Helpers
 UINavigationBar+AnobiKit
-
 
 DESC
 

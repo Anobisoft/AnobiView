@@ -1,16 +1,50 @@
 PODS:
+  - AnobiKit (0.14.0):
+    - AnobiKit/AKCoding (= 0.14.0)
+    - AnobiKit/AKCoreData (= 0.14.0)
+    - AnobiKit/AKFormatters (= 0.14.0)
+    - AnobiKit/AKFoundation (= 0.14.0)
+    - AnobiKit/AKList (= 0.14.0)
+    - AnobiKit/AKLocation (= 0.14.0)
+    - AnobiKit/AKReachability (= 0.14.0)
+    - AnobiKit/AKStrings (= 0.14.0)
+    - AnobiKit/UIKit (= 0.14.0)
+  - AnobiKit/AKCoding (0.14.0):
+    - AnobiKit/AKFoundation
+  - AnobiKit/AKCoreData (0.14.0)
+  - AnobiKit/AKFormatters (0.14.0)
+  - AnobiKit/AKFoundation (0.14.0)
+  - AnobiKit/AKList (0.14.0):
+    - AnobiKit/AKFoundation
+  - AnobiKit/AKLocation (0.14.0):
+    - AnobiKit/AKFoundation
+  - AnobiKit/AKReachability (0.14.0)
+  - AnobiKit/AKStrings (0.14.0):
+    - AnobiKit/AKFoundation
+  - AnobiKit/UIKit (0.14.0):
+    - AnobiKit/AKFoundation
+  - AnobiUIKit (0.9.0):
+    - AnobiKit (~> 0.14.0)
   - AnobiView (0.3.1)
 
 DEPENDENCIES:
+  - AnobiUIKit
   - AnobiView (from `./`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AnobiKit
+    - AnobiUIKit
 
 EXTERNAL SOURCES:
   AnobiView:
     :path: "./"
 
 SPEC CHECKSUMS:
+  AnobiKit: 99a8f828636f7fbeeb25c04323e030a50defcccc
+  AnobiUIKit: 2e0f4115318d7edc1202497597484c3802333817
   AnobiView: 4a09db8d89130a7ff232cef1645bac1fe44c1dec
 
-PODFILE CHECKSUM: ac5c829ecfb2459bf94f83224d01218ba64ed87d
+PODFILE CHECKSUM: 1123f2e2a4a233b14ff7777a34bb59cd74a21100
 
 COCOAPODS: 1.6.1

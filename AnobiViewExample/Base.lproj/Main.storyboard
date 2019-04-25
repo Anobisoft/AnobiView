@@ -57,9 +57,6 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
                                         <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                        <real key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GTK-Ls-KaL" customClass="ASGrainbomatedView">
@@ -76,18 +73,27 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="64" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xaP-Z7-m80">
+                                <rect key="frame" x="16" y="288" width="343" height="315"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <sections/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="GTK-Ls-KaL" firstAttribute="top" secondItem="W4I-7h-Xpj" secondAttribute="bottom" constant="8" id="62Z-0v-4Nb"/>
+                            <constraint firstItem="xaP-Z7-m80" firstAttribute="top" secondItem="Bgc-C8-dFD" secondAttribute="bottom" constant="8" id="974-a0-cOj"/>
                             <constraint firstItem="W4I-7h-Xpj" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="8" id="9pQ-NY-exV"/>
                             <constraint firstItem="GTK-Ls-KaL" firstAttribute="height" secondItem="W4I-7h-Xpj" secondAttribute="height" id="ArM-hT-GRl"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="xaP-Z7-m80" secondAttribute="bottom" constant="20" id="Fyq-MM-rib"/>
                             <constraint firstItem="Bgc-C8-dFD" firstAttribute="leading" secondItem="GTK-Ls-KaL" secondAttribute="leading" id="GoZ-RU-jYf"/>
                             <constraint firstItem="W4I-7h-Xpj" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="Sfd-z9-ctH"/>
+                            <constraint firstItem="xaP-Z7-m80" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="UAm-HJ-u6R"/>
                             <constraint firstItem="W4I-7h-Xpj" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="WhR-kj-PgH"/>
                             <constraint firstItem="Bgc-C8-dFD" firstAttribute="trailing" secondItem="GTK-Ls-KaL" secondAttribute="trailing" id="Wsk-A5-tX2"/>
                             <constraint firstItem="Bgc-C8-dFD" firstAttribute="top" secondItem="GTK-Ls-KaL" secondAttribute="bottom" constant="8" id="aWx-nq-nkI"/>
                             <constraint firstItem="Bgc-C8-dFD" firstAttribute="height" secondItem="GTK-Ls-KaL" secondAttribute="height" id="aXk-P7-2S3"/>
+                            <constraint firstItem="xaP-Z7-m80" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="lhX-hY-Of7"/>
                             <constraint firstItem="GTK-Ls-KaL" firstAttribute="trailing" secondItem="W4I-7h-Xpj" secondAttribute="trailing" id="mcL-wP-53e"/>
                             <constraint firstItem="GTK-Ls-KaL" firstAttribute="leading" secondItem="W4I-7h-Xpj" secondAttribute="leading" id="zhG-cr-PME"/>
                         </constraints>
